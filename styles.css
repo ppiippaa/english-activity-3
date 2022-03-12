@@ -1,0 +1,58 @@
+:root {
+    --light-green: rgba(140, 214, 168, 1);
+    --dark-green: rgba(47, 79, 59, 1)
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+.main-flex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    background-color: var(--light-green);
+}
+
+.sub-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+h1  {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    margin-bottom: 100px;
+    font-weight: bold;
+    color: var(--dark-green)
+}
+
+.sub-headings {
+    height: 360px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark-green);
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
